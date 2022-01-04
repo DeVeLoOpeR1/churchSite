@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Church</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9b5a3a62b0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <i class="fab fa-pagelines"></i>
+        <h1 id="heading" onclick="myFunction()">SIMPLE CSS TEMPLATE</h1>
+        <p>WELCOME TO OUR CHURCH</p>
+        <a href="#">JOIN WITH US</a>
+    </div>
+    <!-- middle part is started there -->
+    <div class="middle">
+        <h1>STATEMENT OF FAITH</h1>
+        <div class="row">
+            <div class="card-template col-sm-4">
+                <i class="fab fa-pagelines"></i>
+                <h4>What We Believe</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore magnam omnis soluta vero. Minima
+                    quod distinctio, molestia
+
+            </div>
+            <div class="card-template col-sm-4">
+                <i class="fas fa-biking"></i>
+                <h4>What We Believe</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore magnam omnis soluta vero. Minima
+                    quod distinctio, molestia
+
+            </div>
+            <div class="card-template col-sm-4">
+                <i class="fas fa-heart"></i>
+                <h4>What We Believe</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore magnam omnis soluta vero. Minima
+                    quod distinctio, molestia
+            </div>
+        </div>
+    </div>
+    <!-- middle footer -->
+    <div class="church-time">
+        <div class="row time-container">
+            <div class="col-md-4">
+                <i class="fas fa-calendar-week"></i>
+                <p> Monday, 10Am - Friday, 10Am</p>
+                <h3>Welcome To Our Church</h3>
+            </div>
+            <div class="col-md-4">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>St.Paul Church</p><br>
+                <i class="fas fa-location-arrow"></i>
+                <p>10 Vasna Road, vadodra 302022</p>
+            </div>
+            <div class="col-md-4">
+                <a href="#">READ MORE</a>
+            </div>
+        </div>
+    </div>
+    <!-- middle lower -->
+    <div class="church-day">
+        <div class="row gx-3 day-container ">
+            <div class=" first col-sm-5">
+                <h3>Welcome To Our Church</h3>
+                <i class="fas fa-heart"></i>
+                <p> Monday, 10Am - Friday, 10Am</p><br>
+                <i class="fas fa-map-marker-alt"></i>
+                <p>St.Paul Church</p><br>
+                <i class="fas fa-location-arrow"></i>
+                <p>10 Vasna Road, vadodra 302022</p><br>
+            </div>
+            <div class=" second col-sm-5">
+                <div class="row time-data">
+                    <div class="col-sm-2 sec">
+                        <h3 id="days"></h3>
+                        <p>DAYS</p>
+                    </div>
+                    <div class="col-sm-2 sec">
+                        <h3 id="hours"></h3>
+                        <p>HOURS</p>
+                    </div>
+                    <div class="col-sm-2 sec">
+                        <h3 id="minutes"></h3>
+                        <p>MINUTES</p>
+                    </div>
+                    <div class="col-sm-2 ">
+                        <h3 id="seconds"></h3>
+                        <p>SECONDS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer part -->
+    <div class="footer-section">
+        <h2>OUR EVENTS</h2>
+        <div class="row">
+            <div class="col-md-6 col-lg-4 event-items">
+                <img src="church.jpg" alt="" width="300px" height="150px">
+                <h3>MORNING GATERING</h3>
+                <i class="fas fa-heart"></i>
+                <p> Monday, 10Am - Friday, 10Am</p><br>
+                <i class="fas fa-map-marker-alt"></i>
+                <p>St.Paul Church</p><br>
+                <i class="fas fa-location-arrow"></i>
+                <p>10 Vasna Road, vadodra 302022</p><br>
+                <p id="event-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, in. Ab placeat
+                    doloremque repellat
+                    laboriosam tempora veritatis debitis accusamus nihil.
+                </p>
+            </div>
+            <div class="col-md-6 col-lg-4 event-items">
+                <img src="church.jpg" alt="" width="300px" height="150px">
+                <h3>SPRIT AND TRUTH</h3>
+                <i class="fas fa-heart"></i>
+                <p> Monday, 10Am - Friday, 10Am</p><br>
+                <i class="fas fa-map-marker-alt"></i>
+                <p>St.Paul Church</p><br>
+                <i class="fas fa-location-arrow"></i>
+                <p>10 Vasna Road, vadodra 302022</p><br>
+                <p id="event-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, in. Ab placeat
+                    doloremque repellat
+                    laboriosam tempora veritatis debitis accusamus nihil.
+                </p>
+            </div>
+            <div class="col-md-6  col-lg-4 event-items">
+                <img src="church.jpg" alt="" width="300px" height="150px">
+                <h3>SUNDAY SCHOOL</h3>
+                <i class="fas fa-heart"></i>
+                <p> Monday, 10Am - Friday, 10Am</p><br>
+                <i class="fas fa-map-marker-alt"></i>
+                <p>St.Paul Church</p><br>
+                <i class="fas fa-location-arrow"></i>
+                <p>10 Vasna Road, vadodra 302022</p><br>
+                <p id="event-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, in. Ab placeat
+                    doloremque repellat
+                    laboriosam tempora veritatis debitis accusamus nihil.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="end-part">
+        <i class="fab fa-instagram-square"></i>
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-github-square"></i>
+        <h5> ©COPYRIGHT 2022</h5>
+
+    </div>
+
+    <script>
+        const d = new Date();
+        document.getElementById("days").innerHTML = d.getDay();
+        document.getElementById("hours").innerHTML = d.getHours();
+        document.getElementById("minutes").innerHTML = d.getMinutes();
+        document.getElementById("seconds").innerHTML = d.getSeconds();
+
+        function myFunction() {
+            document.getElementById("heading").innerHTML = "Morning star church";
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,212 @@
+body{
+margin: 0px;
+}
+.header {
+    background-image: url("church.jpg");
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 70vh;
+
+}
+.header i {
+    color: #fff;
+    font-size: 40px;
+    margin-top: 17vh;
+}
+
+.header h1 {
+    font-size: 7vh;
+    color: #fff;
+    margin: 0px;
+    font-family: sans-serif;
+    font-weight: 900;
+
+}
+.header p {
+    font-size: 3vh;
+    color: #fff;
+    font-family:serif;
+    font-style: italic;
+    font-weight: 701;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.header a {
+    background-color: rgb(228, 86, 86);
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.header a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* middle part */
+.middle {
+    text-align: center;
+    margin-top :10vh;
+    font-family: sans-serif;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 5vh;
+}
+.middle i {
+    color:rgb(228, 86, 86);
+    font-size: 40px;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+}
+.middle h1 {
+    margin-bottom: 10vh;
+    font-size: 5vh;
+    font-weight: 700;
+}
+.card-template h4{
+    font-weight: 500;
+}
+ 
+/*middle center part*/
+.church-time {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: center;
+    background-color:rgb(228, 86, 86); 
+    color: #fff;
+}
+.time-container {
+    padding-top: 50px;
+    padding-bottom:20px;
+}
+
+.church-time i {
+    color:#fff;
+    font-size: 15px;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+}
+.time-container p {
+    margin-bottom: 0px;
+    display: inline;
+}
+.time-container a{
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.time-container a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* middle lower part*/
+
+.col-sm-5{
+    margin-left: 80px;
+}
+.church-day {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: center;
+    background-color: rgb(219, 212, 212);
+
+}
+.church-day i {
+    color:rgb(228, 86, 86);
+    font-size: 15px;
+}
+.church-day p {
+    margin-bottom: 0px;
+    display: inline;
+}
+.day-container {
+    padding-top: 50px;
+    padding-bottom:20px;
+}
+.day-container .first {
+    padding-top: 50px;
+    padding-bottom:40px;
+    background-color: #fff;
+    color: black;
+}
+.day-container .second {
+    padding-top: 50px;
+    padding-bottom:20px;
+    background-color: rgb(228, 86, 86);
+    color: #fff;
+}
+.second h3 {
+    font-size: 40px;
+
+}
+.col-sm-2{
+    margin-left: 20px;
+    margin-right: 10px;
+   
+   
+}
+.col-sm-2 p{
+    font-size: 13px;
+}
+.time-data .sec {
+    border-right: 1px solid #fff;
+
+}
+
+/*footer part*/
+.footer-section {
+    text-align: center;
+    margin-top :10vh;
+    font-family: sans-serif;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 5vh;
+
+}
+.footer-section i {
+    color:rgb(228, 86, 86);
+    font-size: 15px;
+}
+.footer-section p {
+    margin-bottom: 0px;
+    display: inline-block;
+}
+.footer-section h2{
+    margin-top:20px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.footer-section h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 701;
+}
+#event-content {
+    margin-top: 20px;
+}
+.end-part {
+    background-color:rgb(228, 86, 86);
+    padding:30px;
+    text-align: center;
+}
+.end-part i {
+    font-size: 30px;
+    color: #fff;
+    margin-right: 15px;
+}
+.end-part h5 {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    .time-container .col-md-4{
+        margin-top: 10px;
+    }
+}
